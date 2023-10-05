@@ -1,4 +1,4 @@
-export const data = [
+const data = [
     {
         id:1,
         name :"Deepak Sahu",
@@ -32,3 +32,5 @@ export const data = [
         mobile:'9425442287'
     }
 ]
+
+export default data;
