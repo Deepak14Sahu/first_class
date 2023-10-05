@@ -11,49 +11,48 @@
   align-items: baseline;
   padding-bottom: 20px;
 }
- h1{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-style: italic;
-        font-weight: 800;
-        color:black;
-    }
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+  font-weight: 800;
+  color: black;
+}
 
-input{
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
+input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
 .col-25 {
-    
-    font-size: 19px;
-    float: left;
-    width: 25%; 
-    margin-top: 20px;
-  }
-  
+  font-size: 19px;
+  float: left;
+  width: 25%;
+  margin-top: 20px;
+}
+
 .col-75 {
-    float: right;
-    width: 70%;
-    padding-top: 10px;
-    margin-left: 5%;
-  }
-  .row::after {
-    content: " ";
-    display: table;
-    clear: both;
-  }
-  #submit, #cancle{
-    
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    background-color: #45a049;
-    width: 40%;
-    margin-top: 20px;
-    font-size: large;
-    font-weight: 700;
-    margin-right: 10%;
-  } 
-  #cancle{
-    background-color: #990000;
-  } 
+  float: right;
+  width: 70%;
+  padding-top: 10px;
+  margin-left: 5%;
+}
+.row::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+#submit,
+#cancle {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #45a049;
+  width: 40%;
+  margin-top: 20px;
+  font-size: large;
+  font-weight: 700;
+  margin-right: 10%;
+}
+#cancle {
+  background-color: #990000;
+}
