@@ -124,7 +124,7 @@ class App extends Component {
       email: "",
       city: "",
       mobile: "",
-      id: "",
+      id: 0,
     };
 
     this.setState({ formInputData: emptyData });
