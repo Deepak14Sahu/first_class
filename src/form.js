@@ -96,7 +96,7 @@ class Form extends Component {
 
           <div>
             <button type="submit" value="Submit" id="submit">
-              {this.props.formInputData.id === "" ? "Submit" : "Update"}
+              {this.props.formInputData.id === 0 ? "Submit" : "Update"}
             </button>
             <button id="cancle" onClick={this.props.handleCancleClick}>
               Cancle
